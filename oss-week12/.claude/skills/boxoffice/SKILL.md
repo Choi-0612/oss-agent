@@ -1,6 +1,6 @@
 ---
 name: boxoffice
-description: (지정한 날짜의 국내 박스오피스 1위 영화와 특정 영화의 당일 관객 수를 KOBIS API로 조회한다. 사용자가 날짜별 박스오피스 1위 영화나 영화 관객 수를 물을 때 사용한다.)
+description: (직접쓸것)
 ---
 
 # 박스오피스 조회
@@ -11,8 +11,8 @@ description: (지정한 날짜의 국내 박스오피스 1위 영화와 특정 �
 
 week12 폴더에서 아래 명령을 실행한다. 날짜는 8자리(예: 20261114)로 쓴다.
 
-- 1위 영화 제목: (극장판 치이카와: 인어 섬의 비밀)
-- 특정 영화의 관객 수: (57,190명)
+- 1위 영화 제목: python .claude/skills/boxoffice/scripts/boxoffice.py rank 20261114
+- 특정 영화의 관객 수: python .claude/skills/boxoffice/scripts/boxoffice.py audience 20261114 "극장판 치이카와: 인어 섬의 비밀"
 
 ## 지킬 것
 
